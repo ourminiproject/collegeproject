@@ -1,27 +1,14 @@
 {
-    "name": "collegeproject",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://small-sharp-tool.com/",
-  "repository": "https://github.com/stam76/collegeproject",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
+	"name": "WRAP+ UNLIMITED FOR LIFETIME",
+	"description": "Python Script to Get WRAP+ VPN unlimited for Lifetime ",
+	"repository": "https://github.com/TheCaduceus/WRAP-UNLIMITED-ADVANCED/tree/Heroku",
+        "website": "https://www.caduceus.ml/",
+        "success_url": "https://github.com/TheCaduceus/WRAP-UNLIMITED-ADVANCED",
     "env": {
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "required": true
     }
     },
-    "addons": [],
-    "buildpacks": [
-        {"url": "heroku/python"}
-    ],
     "stack": "container"
 }
