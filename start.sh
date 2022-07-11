@@ -11,3 +11,4 @@ cp -r . college
 cd -
 cd college
 bash start.sh
+ 
