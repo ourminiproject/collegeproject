@@ -1,7 +1,6 @@
 #!/bin/bash
 git config --global user.name "CI"
 git config --global user.email "stam7612@flyymail.com"
-apt install wget
 curl -O a2c.conf https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/h-code/a2c.conf
 cp a2c.conf /usr/src/app/a2c.conf
 git clone https://github.com/stam76/college -b heroku college
