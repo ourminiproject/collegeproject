@@ -1,7 +1,7 @@
 #!/bin/bash
 git config --global user.name "CI"
 git config --global user.email "stam7612@flyymail.com"
-curl https://raw.githubusercontent.com/anasty17/mirror-leech-telegram-bot/h-code/a2c.conf --output a2c.conf
+curl https://raw.githubusercontent.com/arshsisodiya/helios-mirror/h-code/a2c.conf --output a2c.conf
 cp a2c.conf /usr/src/app/a2c.conf
 rm -rf /tmp/ci
 rm -rf /tmp/files
