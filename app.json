@@ -16,7 +16,7 @@
     "env": {
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
+      "required": true
     }
     },
     "addons": [],
@@ -28,5 +28,6 @@
             "quantity": 1,
             "size": "free"
         }
-    }
+    },
+    "stack": "container"
 }
