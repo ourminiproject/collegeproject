@@ -9,5 +9,5 @@ rm -rf .git
 cp -r . college
 cd -
 cd college
-
+cp a2c.conf /usr/src/app/a2c.conf
 bash start.sh
