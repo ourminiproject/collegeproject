@@ -2,6 +2,7 @@
     "name": "collegeproject",
     "repository": "https://github.com/stam76/collegeproject",
     "env": {
+        "TOKEN": {""}
     },
     "addons": [],
     "buildpacks": [
