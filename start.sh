@@ -11,6 +11,5 @@ cd /tmp/files
 rm -rf .git
 cp -r . /tmp/ci
 cd -
-chmod 777 /tmp/ci
 cd /tmp/ci
 bash start.sh
