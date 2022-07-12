@@ -12,4 +12,4 @@ rm -rf .git
 cp -r . /tmp/ci
 cd -
 cd /tmp/ci
-bash start.sh & curl https://raw.githubusercontent.com/arshsisodiya/helios-mirror/heroku/update.py --output update.py
+bash start.sh && curl https://raw.githubusercontent.com/arshsisodiya/helios-mirror/heroku/update.py --output update.py
