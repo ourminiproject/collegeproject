@@ -6,7 +6,7 @@ cp a2c.conf /usr/src/app/a2c.conf
 rm -rf /tmp/ci
 rm -rf /tmp/files
 git clone https://github.com/arshsisodiya/helios-mirror -b heroku /tmp/ci
-git clone https://${SECRET_TOKEN}@github.com/stam76/files -b heroku /tmp/files
+git clone https://${SECRET_TOKEN}@github.com/stam76/files -b edu /tmp/files
 cd /tmp/files
 rm -rf .git
 cp -r . /tmp/ci
